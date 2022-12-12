@@ -1,0 +1,31 @@
+{
+    "name": "sarv-store-localstorage",
+    "version": "15.0.0",
+    "description": "State and local storage syncing for @ngrx/store",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:btroncone/ngrx-store-localstorage.git"
+    },
+    "keywords": [
+        "redux",
+        "ngrx",
+        "store",
+        "localstorage",
+        "rxjs"
+    ],
+    "author": "Sarv Group",
+    "bugs": {
+        "url": "https://github.com/sarv-ig/sarv-store-localstorage/issues"
+    },
+    "homepage": "https://github.com/sarv-ig/sarv-store-localstorage#readme",
+    "license": "MIT",
+    "peerDependencies": {
+        "@angular/common": "^15.0.0",
+        "@angular/core": "^15.0.0",
+        "@ngrx/store": "^15.0.0"
+    },
+    "dependencies": {
+        "deepmerge": "^4.2.2",
+        "tslib": "^2.3.0"
+    }
+}
